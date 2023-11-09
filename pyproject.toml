@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "boba_trader"
+version = "0.1.0"
+description = ""
+authors = ["Kacper Wojtaszczyk <kacper.wojtaszczyk95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+nautilus-trader = "^1.180.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
