@@ -20,6 +20,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 minversion = "7.4"
 addopts = "-ra -q"
+pythonpath = "boba_trader"
 testpaths = ["tests"]
 
 [tool.black]

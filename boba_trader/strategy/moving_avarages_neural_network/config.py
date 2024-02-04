@@ -5,19 +5,17 @@ from nautilus_trader.trading.strategy import StrategyConfig
 
 
 class MovingAveragesNeuralNetworkConfig(StrategyConfig):
+    instrument_id: str
     stop_loss: int
     take_profit: int
     trailing_stop: int
     trailing_step: int
-    volume: int
+    volume: float
     open_positions_limit: int
     ma_type: MovingAverageType
     h1_ma_period: int
-    h1_ma_shift: int
     h4_ma_period: int
-    h4_ma_shift: int
     d1_ma_period: int
-    d1_ma_shift: int
     p1: float
     p2: float
     p3: float

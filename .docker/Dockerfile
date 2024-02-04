@@ -24,7 +24,7 @@ RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
 
 WORKDIR /usr/src/app
 
-COPY poetry.lock pyproject.toml ./
+COPY ../poetry.lock pyproject.toml ./
 
 RUN poetry install --no-root --only main
 
@@ -32,6 +32,8 @@ FROM base as dev
 
 COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 
-COPY . .
+WORKDIR /usr/src/app
+
+COPY .. .
 
 RUN poetry install --all-extras
