@@ -263,27 +263,27 @@ files = [
 
 [[package]]
 name = "nautilus-trader"
-version = "1.185.0"
+version = "1.186.0"
 description = "A high-performance algorithmic trading platform and event-driven backtester"
 optional = false
 python-versions = ">=3.10,<3.13"
 files = [
-    {file = "nautilus_trader-1.185.0-cp310-cp310-macosx_12_0_x86_64.whl", hash = "sha256:67357738bd8870d88f3523fa88d82de9be9e64748f5e321a1b336c581fe48cda"},
-    {file = "nautilus_trader-1.185.0-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:991f7af4a509180c7b5307d87febcab4ae4efe5281cef60bf28bfa29499a3507"},
-    {file = "nautilus_trader-1.185.0-cp310-cp310-manylinux_2_31_x86_64.whl", hash = "sha256:fee6cdff98347d09db4bbdb9cfb0a4674153362527f80b99a1e21a5f1a8e94bd"},
-    {file = "nautilus_trader-1.185.0-cp310-cp310-manylinux_2_35_x86_64.whl", hash = "sha256:61e561e2382a1451cfb117fb1adbe25e54e6006854cc07aaf4151de0b9c0c66f"},
-    {file = "nautilus_trader-1.185.0-cp310-cp310-win_amd64.whl", hash = "sha256:110352275797c81627fd4c69bfa7b49b8549796386a1e12667440089d3657286"},
-    {file = "nautilus_trader-1.185.0-cp311-cp311-macosx_12_0_x86_64.whl", hash = "sha256:c78e10ff9cd361d742bbc57333b4306133381c228a6cff6ed44f316315d37b48"},
-    {file = "nautilus_trader-1.185.0-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:e256a37fbc6549ad9ae6fe9278a9eea0a70a0692d3bf694b2f1b20879020ddce"},
-    {file = "nautilus_trader-1.185.0-cp311-cp311-manylinux_2_31_x86_64.whl", hash = "sha256:86c00b49eb37c3fd84e317d58b41033fd2736b92e3dbeaf5ab7d23a876870a5a"},
-    {file = "nautilus_trader-1.185.0-cp311-cp311-manylinux_2_35_x86_64.whl", hash = "sha256:2064598ad23e4940cde63feba3355ab81e726d18765a76af673fdf0205116949"},
-    {file = "nautilus_trader-1.185.0-cp311-cp311-win_amd64.whl", hash = "sha256:03e82feca598c6a2d384bbd228ff9172754ba2c3aa0fb2ca4fca4b4b4493efc7"},
-    {file = "nautilus_trader-1.185.0-cp312-cp312-macosx_12_0_x86_64.whl", hash = "sha256:e5164764f58453654ef8e2148167707623833a5299b5ea196e695e8aaff384dc"},
-    {file = "nautilus_trader-1.185.0-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:4c448ba1899f502c6c861252602e49c3b31e511e281d50071cbf07b4e24baba6"},
-    {file = "nautilus_trader-1.185.0-cp312-cp312-manylinux_2_31_x86_64.whl", hash = "sha256:a6630f461c63a7b8ae02e22b47102f480fbcfb863cad8b0555d89f5f42bf0530"},
-    {file = "nautilus_trader-1.185.0-cp312-cp312-manylinux_2_35_x86_64.whl", hash = "sha256:02857ae1b11eb70b5cc6d684bcd63d83b027459af6c84f8324881fd518370b1b"},
-    {file = "nautilus_trader-1.185.0-cp312-cp312-win_amd64.whl", hash = "sha256:e8eb6e64c14192709180961ccb1bf11d9ffe77dab1989ad15380299a3a46be9c"},
-    {file = "nautilus_trader-1.185.0.tar.gz", hash = "sha256:123f8472c4ae8e29f05d150314e1772b008c6481d62704a22d2b9b15d5ca565c"},
+    {file = "nautilus_trader-1.186.0-cp310-cp310-macosx_12_0_x86_64.whl", hash = "sha256:d370e4bcc96f0f5a9f4a879866cdbffc91c24858e36030ee1e0267330d586671"},
+    {file = "nautilus_trader-1.186.0-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:081c080a62be54f85270dc3b20b418cad60dffde27bc0c03ba48dfeecff1da62"},
+    {file = "nautilus_trader-1.186.0-cp310-cp310-manylinux_2_31_x86_64.whl", hash = "sha256:6c862eeb41061aa9ebf0aa4295a10e075dcb3053330dc138b96b8c8cb28038d3"},
+    {file = "nautilus_trader-1.186.0-cp310-cp310-manylinux_2_35_x86_64.whl", hash = "sha256:86ccf759e6ed1c9a054356b623707804971d1db75a5c6e435b07603f737dd097"},
+    {file = "nautilus_trader-1.186.0-cp310-cp310-win_amd64.whl", hash = "sha256:04671268bac2ce2b9e35e3e3b14cd2e289453190b7b5f3e16a5d9458b8a1e3fe"},
+    {file = "nautilus_trader-1.186.0-cp311-cp311-macosx_12_0_x86_64.whl", hash = "sha256:25015be806ccdbeebbeb90a484b2bd412d2ea40041a18ecac4f9a35c5ad5f68e"},
+    {file = "nautilus_trader-1.186.0-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:3344ee7da95f5935bc8b8d750f0e678e683739dd54b15916dcf89a567e6e75a3"},
+    {file = "nautilus_trader-1.186.0-cp311-cp311-manylinux_2_31_x86_64.whl", hash = "sha256:57880d60546d5d22a45982dfbc5fc541fcc6361a0a989c3e35430f5d3c911214"},
+    {file = "nautilus_trader-1.186.0-cp311-cp311-manylinux_2_35_x86_64.whl", hash = "sha256:df29d943a5ce3d0766cd7a478aa8bcf20f9c760698eb58d1624a5e62f9094f7b"},
+    {file = "nautilus_trader-1.186.0-cp311-cp311-win_amd64.whl", hash = "sha256:292a8c7605c14be512be7f938dba5d2c78f926dd40ab73c7a36b76b3046fc584"},
+    {file = "nautilus_trader-1.186.0-cp312-cp312-macosx_12_0_x86_64.whl", hash = "sha256:94f4642ee69665c114e853025543c48ebe680a7ea8dfa8d1de210f19c63bcc5c"},
+    {file = "nautilus_trader-1.186.0-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:5a2e8bff63ffc4f1e93c2bc55079146e650538f012da71cb55c81674d0c834a0"},
+    {file = "nautilus_trader-1.186.0-cp312-cp312-manylinux_2_31_x86_64.whl", hash = "sha256:bd6be873d94fb941bcdd66052ecafaf7a180242086f266c19812fbf01659a6af"},
+    {file = "nautilus_trader-1.186.0-cp312-cp312-manylinux_2_35_x86_64.whl", hash = "sha256:5d4c53f196074400cba5bcf118a8dee009b01101e9861f153161f878edea9e38"},
+    {file = "nautilus_trader-1.186.0-cp312-cp312-win_amd64.whl", hash = "sha256:a0f0a96fe72818510e9cf98ae125fbc98a66a54d0aa4a1a116eb1f1638740935"},
+    {file = "nautilus_trader-1.186.0.tar.gz", hash = "sha256:436443b3009ba7df994ff3694a57a199964ffced555f254361a26228efc5ba92"},
 ]
 
 [package.dependencies]
@@ -301,7 +301,6 @@ uvloop = {version = ">=0.19.0,<0.20.0", markers = "sys_platform != \"win32\""}
 
 [package.extras]
 betfair = ["betfair_parser (==0.10.0)"]
-databento = ["databento (>=0.27.0,<0.28.0)"]
 docker = ["docker (>=6.1.3,<7.0.0)"]
 ib = ["async-timeout (>=4.0.3,<5.0.0)", "defusedxml (>=0.7.1,<0.8.0)", "nautilus_ibapi (==10.19.2)"]
 
@@ -690,4 +689,4 @@ test = ["Cython (>=0.29.36,<0.30.0)", "aiohttp (==3.9.0b0)", "aiohttp (>=3.8.1)"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.12"
-content-hash = "cce69be44b1c399c3f26fbc1aecd43fc3e1bdcd431481269d1c59d1b8083c831"
+content-hash = "e72330358ab521596df067d3f4886da3144a3a207e0e908d1bb4861b825a9eff"
