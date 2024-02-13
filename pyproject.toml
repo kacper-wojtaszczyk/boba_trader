@@ -11,7 +11,7 @@ nautilus-trader = "^1.187.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
-black = "^24.1.1"
+black = "^24.2.0"
 
 [build-system]
 requires = ["poetry-core"]
