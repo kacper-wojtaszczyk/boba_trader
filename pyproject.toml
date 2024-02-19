@@ -10,7 +10,7 @@ python = ">=3.10,<3.12"
 nautilus-trader = "^1.187.0"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
+pytest = "^8.0.1"
 black = "^24.2.0"
 
 [build-system]
