@@ -263,27 +263,24 @@ files = [
 
 [[package]]
 name = "nautilus-trader"
-version = "1.191.0"
+version = "1.192.0"
 description = "A high-performance algorithmic trading platform and event-driven backtester"
 optional = false
 python-versions = "<3.13,>=3.10"
 files = [
-    {file = "nautilus_trader-1.191.0-cp310-cp310-macosx_12_0_x86_64.whl", hash = "sha256:f406829167fd9fc4a71404719bf17e7413df6152f763e2d364d531d9d56b033f"},
-    {file = "nautilus_trader-1.191.0-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:e952a6047c6cb12fcc1132917d89fd41c562dc8b75ef7124a8dfea9428552434"},
-    {file = "nautilus_trader-1.191.0-cp310-cp310-manylinux_2_31_x86_64.whl", hash = "sha256:2a28ea79d7983eeadd3d475eb827864b84113a0be232bbb6ecb0d8ac688e49dd"},
-    {file = "nautilus_trader-1.191.0-cp310-cp310-manylinux_2_35_x86_64.whl", hash = "sha256:46f359afc4c04b5ff9d64e4a6f1e4aa16718bc47d18e9a58f5c4b796a42da678"},
-    {file = "nautilus_trader-1.191.0-cp310-cp310-win_amd64.whl", hash = "sha256:f70bf051b6aee83189b9c0c86c06d8b1001e3d832166d1813f501931855572c5"},
-    {file = "nautilus_trader-1.191.0-cp311-cp311-macosx_12_0_x86_64.whl", hash = "sha256:1ccf6d26e41951c2fb56a218b727b8cbc59fba7d7050ae807dc30421ae6d5bb9"},
-    {file = "nautilus_trader-1.191.0-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:057a79f84bcd3b0f9dfbdfeeaffe946cbf4282c4e691476582385f6db02ab943"},
-    {file = "nautilus_trader-1.191.0-cp311-cp311-manylinux_2_31_x86_64.whl", hash = "sha256:be6b4346da1cceb94ec91e757f30e45feb79c8bca1bce935fca71cbc4b546f6b"},
-    {file = "nautilus_trader-1.191.0-cp311-cp311-manylinux_2_35_x86_64.whl", hash = "sha256:cb42cb5d822561a8c87d16a765f3d941b6c272fe462fe5fd322aba8c5713cfd0"},
-    {file = "nautilus_trader-1.191.0-cp311-cp311-win_amd64.whl", hash = "sha256:58d80ef841961530cf699df31d4d903bc6faad84e0242b0214d69e1bbc7cb8d7"},
-    {file = "nautilus_trader-1.191.0-cp312-cp312-macosx_12_0_x86_64.whl", hash = "sha256:10f30fd09b009121cfa07146c60081779e17e8a7d3c8a6ef3e5ac17c7ddc3904"},
-    {file = "nautilus_trader-1.191.0-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:53cb9e95c37bddc2271293ea0abe35afd7061df912361df780f81b3d63da7052"},
-    {file = "nautilus_trader-1.191.0-cp312-cp312-manylinux_2_31_x86_64.whl", hash = "sha256:cf9ba3ebc18b755c2e39edf512df7b667bcb1df2110108baee971c3ace8836a2"},
-    {file = "nautilus_trader-1.191.0-cp312-cp312-manylinux_2_35_x86_64.whl", hash = "sha256:8f32773c30ee025053ddff14aee8284c3b2f1bf8d969bae4368fc88610eacac9"},
-    {file = "nautilus_trader-1.191.0-cp312-cp312-win_amd64.whl", hash = "sha256:32323b3607721a5b741a8b695f1547cace66d65cc217f5e991570f797577410e"},
-    {file = "nautilus_trader-1.191.0.tar.gz", hash = "sha256:ac9c5a9c105bae0d314bdaaf9e22bc0719a15f17f56efdb20ee15fe8049eca15"},
+    {file = "nautilus_trader-1.192.0-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:5a8006ea2c9c0f274988657fb8d821697f8e86f89888991228879c9685712611"},
+    {file = "nautilus_trader-1.192.0-cp310-cp310-manylinux_2_31_x86_64.whl", hash = "sha256:03a1c16c8ef057a8d03130f960e5473e691bb032c3de49b269f72cdda2a2c4cd"},
+    {file = "nautilus_trader-1.192.0-cp310-cp310-manylinux_2_35_x86_64.whl", hash = "sha256:d58e35b1c9fe64a99c2984f4999f41bc911eabdf166904e288a50b24474d5efd"},
+    {file = "nautilus_trader-1.192.0-cp310-cp310-win_amd64.whl", hash = "sha256:0ce2715bbc7f9b0f881d6a8d521be1a65534d4a96fa1114266961b6ff6ec72f9"},
+    {file = "nautilus_trader-1.192.0-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:85b179b70bbb222b8d2a5b24103ecab68375e58867ad787d58edf25f733fa451"},
+    {file = "nautilus_trader-1.192.0-cp311-cp311-manylinux_2_31_x86_64.whl", hash = "sha256:97243e04a207869fc582da8a927d063301f86f630c6ab15c397cea3c7bb1da82"},
+    {file = "nautilus_trader-1.192.0-cp311-cp311-manylinux_2_35_x86_64.whl", hash = "sha256:5d7d13fa0b9e2920f00ba18c176ac7ae7b40ab6526afeb91403a0af8c2bbc040"},
+    {file = "nautilus_trader-1.192.0-cp311-cp311-win_amd64.whl", hash = "sha256:d2bba200d95bb80f53ce260dbc4ca80927d351c754cccbb9456066b257e47a50"},
+    {file = "nautilus_trader-1.192.0-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:fd9ea8827e68caa402c95588bf824edc3a042dc0ef5b65ad187971923e037f8b"},
+    {file = "nautilus_trader-1.192.0-cp312-cp312-manylinux_2_31_x86_64.whl", hash = "sha256:00e7ebe06483edac4156362b2090acca636eab71666f13a0dc98fa1f67995236"},
+    {file = "nautilus_trader-1.192.0-cp312-cp312-manylinux_2_35_x86_64.whl", hash = "sha256:767011529604f668e2a556379cb1369d1f4d90fa3a1deb5f81135d98539c1280"},
+    {file = "nautilus_trader-1.192.0-cp312-cp312-win_amd64.whl", hash = "sha256:2364803e29865846faf1f6430a1fd227b6d5760110833f8dbc9c5f5b57765d42"},
+    {file = "nautilus_trader-1.192.0.tar.gz", hash = "sha256:34a0dcd70364c5ac0af1578660f48f93e10d879eaaf9331725d8b37d7b992453"},
 ]
 
 [package.dependencies]
@@ -293,14 +290,14 @@ fsspec = "2023.6.0"
 msgspec = ">=0.18.6,<0.19.0"
 numpy = ">=1.26.4,<2.0.0"
 pandas = ">=2.2.2,<3.0.0"
-pyarrow = ">=15.0.2"
+pyarrow = ">=16.1.0"
 pytz = ">=2023.4.0"
 toml = ">=0.10.2,<0.11.0"
-tqdm = ">=4.66.2,<5.0.0"
+tqdm = ">=4.66.4,<5.0.0"
 uvloop = {version = ">=0.19.0,<0.20.0", markers = "sys_platform != \"win32\""}
 
 [package.extras]
-betfair = ["betfair_parser (==0.11.1)"]
+betfair = ["betfair_parser (==0.12.0)"]
 docker = ["docker (>=7.0.0,<8.0.0)"]
 ib = ["async-timeout (>=4.0.3,<5.0.0)", "defusedxml (>=0.7.1,<0.8.0)", "nautilus_ibapi (==10.19.2)"]
 
@@ -475,51 +472,51 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pyarrow"
-version = "15.0.2"
+version = "16.1.0"
 description = "Python library for Apache Arrow"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pyarrow-15.0.2-cp310-cp310-macosx_10_15_x86_64.whl", hash = "sha256:88b340f0a1d05b5ccc3d2d986279045655b1fe8e41aba6ca44ea28da0d1455d8"},
-    {file = "pyarrow-15.0.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:eaa8f96cecf32da508e6c7f69bb8401f03745c050c1dd42ec2596f2e98deecac"},
-    {file = "pyarrow-15.0.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:23c6753ed4f6adb8461e7c383e418391b8d8453c5d67e17f416c3a5d5709afbd"},
-    {file = "pyarrow-15.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f639c059035011db8c0497e541a8a45d98a58dbe34dc8fadd0ef128f2cee46e5"},
-    {file = "pyarrow-15.0.2-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:290e36a59a0993e9a5224ed2fb3e53375770f07379a0ea03ee2fce2e6d30b423"},
-    {file = "pyarrow-15.0.2-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:06c2bb2a98bc792f040bef31ad3e9be6a63d0cb39189227c08a7d955db96816e"},
-    {file = "pyarrow-15.0.2-cp310-cp310-win_amd64.whl", hash = "sha256:f7a197f3670606a960ddc12adbe8075cea5f707ad7bf0dffa09637fdbb89f76c"},
-    {file = "pyarrow-15.0.2-cp311-cp311-macosx_10_15_x86_64.whl", hash = "sha256:5f8bc839ea36b1f99984c78e06e7a06054693dc2af8920f6fb416b5bca9944e4"},
-    {file = "pyarrow-15.0.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:f5e81dfb4e519baa6b4c80410421528c214427e77ca0ea9461eb4097c328fa33"},
-    {file = "pyarrow-15.0.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3a4f240852b302a7af4646c8bfe9950c4691a419847001178662a98915fd7ee7"},
-    {file = "pyarrow-15.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4e7d9cfb5a1e648e172428c7a42b744610956f3b70f524aa3a6c02a448ba853e"},
-    {file = "pyarrow-15.0.2-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:2d4f905209de70c0eb5b2de6763104d5a9a37430f137678edfb9a675bac9cd98"},
-    {file = "pyarrow-15.0.2-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:90adb99e8ce5f36fbecbbc422e7dcbcbed07d985eed6062e459e23f9e71fd197"},
-    {file = "pyarrow-15.0.2-cp311-cp311-win_amd64.whl", hash = "sha256:b116e7fd7889294cbd24eb90cd9bdd3850be3738d61297855a71ac3b8124ee38"},
-    {file = "pyarrow-15.0.2-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:25335e6f1f07fdaa026a61c758ee7d19ce824a866b27bba744348fa73bb5a440"},
-    {file = "pyarrow-15.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:90f19e976d9c3d8e73c80be84ddbe2f830b6304e4c576349d9360e335cd627fc"},
-    {file = "pyarrow-15.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a22366249bf5fd40ddacc4f03cd3160f2d7c247692945afb1899bab8a140ddfb"},
-    {file = "pyarrow-15.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c2a335198f886b07e4b5ea16d08ee06557e07db54a8400cc0d03c7f6a22f785f"},
-    {file = "pyarrow-15.0.2-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:3e6d459c0c22f0b9c810a3917a1de3ee704b021a5fb8b3bacf968eece6df098f"},
-    {file = "pyarrow-15.0.2-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:033b7cad32198754d93465dcfb71d0ba7cb7cd5c9afd7052cab7214676eec38b"},
-    {file = "pyarrow-15.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:29850d050379d6e8b5a693098f4de7fd6a2bea4365bfd073d7c57c57b95041ee"},
-    {file = "pyarrow-15.0.2-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:7167107d7fb6dcadb375b4b691b7e316f4368f39f6f45405a05535d7ad5e5058"},
-    {file = "pyarrow-15.0.2-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:e85241b44cc3d365ef950432a1b3bd44ac54626f37b2e3a0cc89c20e45dfd8bf"},
-    {file = "pyarrow-15.0.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:248723e4ed3255fcd73edcecc209744d58a9ca852e4cf3d2577811b6d4b59818"},
-    {file = "pyarrow-15.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3ff3bdfe6f1b81ca5b73b70a8d482d37a766433823e0c21e22d1d7dde76ca33f"},
-    {file = "pyarrow-15.0.2-cp38-cp38-manylinux_2_28_aarch64.whl", hash = "sha256:f3d77463dee7e9f284ef42d341689b459a63ff2e75cee2b9302058d0d98fe142"},
-    {file = "pyarrow-15.0.2-cp38-cp38-manylinux_2_28_x86_64.whl", hash = "sha256:8c1faf2482fb89766e79745670cbca04e7018497d85be9242d5350cba21357e1"},
-    {file = "pyarrow-15.0.2-cp38-cp38-win_amd64.whl", hash = "sha256:28f3016958a8e45a1069303a4a4f6a7d4910643fc08adb1e2e4a7ff056272ad3"},
-    {file = "pyarrow-15.0.2-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:89722cb64286ab3d4daf168386f6968c126057b8c7ec3ef96302e81d8cdb8ae4"},
-    {file = "pyarrow-15.0.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:cd0ba387705044b3ac77b1b317165c0498299b08261d8122c96051024f953cd5"},
-    {file = "pyarrow-15.0.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ad2459bf1f22b6a5cdcc27ebfd99307d5526b62d217b984b9f5c974651398832"},
-    {file = "pyarrow-15.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:58922e4bfece8b02abf7159f1f53a8f4d9f8e08f2d988109126c17c3bb261f22"},
-    {file = "pyarrow-15.0.2-cp39-cp39-manylinux_2_28_aarch64.whl", hash = "sha256:adccc81d3dc0478ea0b498807b39a8d41628fa9210729b2f718b78cb997c7c91"},
-    {file = "pyarrow-15.0.2-cp39-cp39-manylinux_2_28_x86_64.whl", hash = "sha256:8bd2baa5fe531571847983f36a30ddbf65261ef23e496862ece83bdceb70420d"},
-    {file = "pyarrow-15.0.2-cp39-cp39-win_amd64.whl", hash = "sha256:6669799a1d4ca9da9c7e06ef48368320f5856f36f9a4dd31a11839dda3f6cc8c"},
-    {file = "pyarrow-15.0.2.tar.gz", hash = "sha256:9c9bc803cb3b7bfacc1e96ffbfd923601065d9d3f911179d81e72d99fd74a3d9"},
+    {file = "pyarrow-16.1.0-cp310-cp310-macosx_10_15_x86_64.whl", hash = "sha256:17e23b9a65a70cc733d8b738baa6ad3722298fa0c81d88f63ff94bf25eaa77b9"},
+    {file = "pyarrow-16.1.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:4740cc41e2ba5d641071d0ab5e9ef9b5e6e8c7611351a5cb7c1d175eaf43674a"},
+    {file = "pyarrow-16.1.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:98100e0268d04e0eec47b73f20b39c45b4006f3c4233719c3848aa27a03c1aef"},
+    {file = "pyarrow-16.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f68f409e7b283c085f2da014f9ef81e885d90dcd733bd648cfba3ef265961848"},
+    {file = "pyarrow-16.1.0-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:a8914cd176f448e09746037b0c6b3a9d7688cef451ec5735094055116857580c"},
+    {file = "pyarrow-16.1.0-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:48be160782c0556156d91adbdd5a4a7e719f8d407cb46ae3bb4eaee09b3111bd"},
+    {file = "pyarrow-16.1.0-cp310-cp310-win_amd64.whl", hash = "sha256:9cf389d444b0f41d9fe1444b70650fea31e9d52cfcb5f818b7888b91b586efff"},
+    {file = "pyarrow-16.1.0-cp311-cp311-macosx_10_15_x86_64.whl", hash = "sha256:d0ebea336b535b37eee9eee31761813086d33ed06de9ab6fc6aaa0bace7b250c"},
+    {file = "pyarrow-16.1.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:2e73cfc4a99e796727919c5541c65bb88b973377501e39b9842ea71401ca6c1c"},
+    {file = "pyarrow-16.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:bf9251264247ecfe93e5f5a0cd43b8ae834f1e61d1abca22da55b20c788417f6"},
+    {file = "pyarrow-16.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ddf5aace92d520d3d2a20031d8b0ec27b4395cab9f74e07cc95edf42a5cc0147"},
+    {file = "pyarrow-16.1.0-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:25233642583bf658f629eb230b9bb79d9af4d9f9229890b3c878699c82f7d11e"},
+    {file = "pyarrow-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:a33a64576fddfbec0a44112eaf844c20853647ca833e9a647bfae0582b2ff94b"},
+    {file = "pyarrow-16.1.0-cp311-cp311-win_amd64.whl", hash = "sha256:185d121b50836379fe012753cf15c4ba9638bda9645183ab36246923875f8d1b"},
+    {file = "pyarrow-16.1.0-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:2e51ca1d6ed7f2e9d5c3c83decf27b0d17bb207a7dea986e8dc3e24f80ff7d6f"},
+    {file = "pyarrow-16.1.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:06ebccb6f8cb7357de85f60d5da50e83507954af617d7b05f48af1621d331c9a"},
+    {file = "pyarrow-16.1.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b04707f1979815f5e49824ce52d1dceb46e2f12909a48a6a753fe7cafbc44a0c"},
+    {file = "pyarrow-16.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0d32000693deff8dc5df444b032b5985a48592c0697cb6e3071a5d59888714e2"},
+    {file = "pyarrow-16.1.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:8785bb10d5d6fd5e15d718ee1d1f914fe768bf8b4d1e5e9bf253de8a26cb1628"},
+    {file = "pyarrow-16.1.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:e1369af39587b794873b8a307cc6623a3b1194e69399af0efd05bb202195a5a7"},
+    {file = "pyarrow-16.1.0-cp312-cp312-win_amd64.whl", hash = "sha256:febde33305f1498f6df85e8020bca496d0e9ebf2093bab9e0f65e2b4ae2b3444"},
+    {file = "pyarrow-16.1.0-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:b5f5705ab977947a43ac83b52ade3b881eb6e95fcc02d76f501d549a210ba77f"},
+    {file = "pyarrow-16.1.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:0d27bf89dfc2576f6206e9cd6cf7a107c9c06dc13d53bbc25b0bd4556f19cf5f"},
+    {file = "pyarrow-16.1.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0d07de3ee730647a600037bc1d7b7994067ed64d0eba797ac74b2bc77384f4c2"},
+    {file = "pyarrow-16.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fbef391b63f708e103df99fbaa3acf9f671d77a183a07546ba2f2c297b361e83"},
+    {file = "pyarrow-16.1.0-cp38-cp38-manylinux_2_28_aarch64.whl", hash = "sha256:19741c4dbbbc986d38856ee7ddfdd6a00fc3b0fc2d928795b95410d38bb97d15"},
+    {file = "pyarrow-16.1.0-cp38-cp38-manylinux_2_28_x86_64.whl", hash = "sha256:f2c5fb249caa17b94e2b9278b36a05ce03d3180e6da0c4c3b3ce5b2788f30eed"},
+    {file = "pyarrow-16.1.0-cp38-cp38-win_amd64.whl", hash = "sha256:e6b6d3cd35fbb93b70ade1336022cc1147b95ec6af7d36906ca7fe432eb09710"},
+    {file = "pyarrow-16.1.0-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:18da9b76a36a954665ccca8aa6bd9f46c1145f79c0bb8f4f244f5f8e799bca55"},
+    {file = "pyarrow-16.1.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:99f7549779b6e434467d2aa43ab2b7224dd9e41bdde486020bae198978c9e05e"},
+    {file = "pyarrow-16.1.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f07fdffe4fd5b15f5ec15c8b64584868d063bc22b86b46c9695624ca3505b7b4"},
+    {file = "pyarrow-16.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ddfe389a08ea374972bd4065d5f25d14e36b43ebc22fc75f7b951f24378bf0b5"},
+    {file = "pyarrow-16.1.0-cp39-cp39-manylinux_2_28_aarch64.whl", hash = "sha256:3b20bd67c94b3a2ea0a749d2a5712fc845a69cb5d52e78e6449bbd295611f3aa"},
+    {file = "pyarrow-16.1.0-cp39-cp39-manylinux_2_28_x86_64.whl", hash = "sha256:ba8ac20693c0bb0bf4b238751d4409e62852004a8cf031c73b0e0962b03e45e3"},
+    {file = "pyarrow-16.1.0-cp39-cp39-win_amd64.whl", hash = "sha256:31a1851751433d89a986616015841977e0a188662fcffd1a5677453f1df2de0a"},
+    {file = "pyarrow-16.1.0.tar.gz", hash = "sha256:15fbb22ea96d11f0b5768504a3f961edab25eaf4197c341720c4a387f6c60315"},
 ]
 
 [package.dependencies]
-numpy = ">=1.16.6,<2"
+numpy = ">=1.16.6"
 
 [[package]]
 name = "pytest"
@@ -603,13 +600,13 @@ files = [
 
 [[package]]
 name = "tqdm"
-version = "4.66.2"
+version = "4.66.4"
 description = "Fast, Extensible Progress Meter"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "tqdm-4.66.2-py3-none-any.whl", hash = "sha256:1ee4f8a893eb9bef51c6e35730cebf234d5d0b6bd112b0271e10ed7c24a02bd9"},
-    {file = "tqdm-4.66.2.tar.gz", hash = "sha256:6cd52cdf0fef0e0f543299cfc96fec90d7b8a7e88745f411ec33eb44d5ed3531"},
+    {file = "tqdm-4.66.4-py3-none-any.whl", hash = "sha256:b75ca56b413b030bc3f00af51fd2c1a1a5eac6a0c1cca83cbb37a5c52abce644"},
+    {file = "tqdm-4.66.4.tar.gz", hash = "sha256:e4d936c9de8727928f3be6079590e97d9abfe8d39a590be678eb5919ffc186bb"},
 ]
 
 [package.dependencies]
@@ -690,4 +687,4 @@ test = ["Cython (>=0.29.36,<0.30.0)", "aiohttp (==3.9.0b0)", "aiohttp (>=3.8.1)"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.12"
-content-hash = "4035fe91e532d57190d9a46bb4cf1adba844589f1b2b9e5c2867f14c80a8f3a7"
+content-hash = "981cd5c102102ef4dcff2175bb0838c91e6f0c18d7a89e4db8dfb344ff2592f7"
