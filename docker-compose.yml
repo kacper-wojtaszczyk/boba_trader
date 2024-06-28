@@ -1,0 +1,6 @@
+services:
+  boba_app:
+    build: .
+    container_name: boba
+    volumes:
+      - './:/srv/app/'

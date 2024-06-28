@@ -15,25 +15,25 @@ RUN apt-get update && \
     apt-get install -y curl clang git libssl-dev make pkg-config gcc python3-dev && \
     apt-get clean
 
+RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
+
 RUN python3 -m venv $POETRY_HOME && \
     $POETRY_HOME/bin/pip install poetry
 
 FROM base as builder
 
-RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
-
 WORKDIR /usr/src/app
 
-COPY ../poetry.lock pyproject.toml ./
+COPY poetry.lock pyproject.toml ./
 
 RUN poetry install --no-root --only main
 
 FROM base as dev
 
-COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
-
 WORKDIR /usr/src/app
 
-COPY .. .
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+
+COPY . .
 
 RUN poetry install --all-extras
