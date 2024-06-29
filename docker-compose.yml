@@ -1,9 +1,0 @@
-services:
-  boba_app:
-    build:
-      target: dev
-      context: .
-    container_name: boba
-    command: bash
-    volumes:
-      - './:/srv/app/'
