@@ -17,23 +17,12 @@ RUN apt-get update && \
 
 RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
 
-RUN python3 -m venv $POETRY_HOME && \
-    $POETRY_HOME/bin/pip install poetry
-
-FROM base as builder
+RUN pip install poetry
 
 WORKDIR /usr/src/app
-
-COPY poetry.lock pyproject.toml ./
-
-RUN poetry install --no-root --only main
-
-FROM base as dev
-
-WORKDIR /usr/src/app
-
-COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 
 COPY . .
+
+WORKDIR /usr/src/app
 
 RUN poetry install --all-extras

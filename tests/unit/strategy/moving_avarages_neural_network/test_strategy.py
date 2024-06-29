@@ -1,16 +1,15 @@
 import datetime
 from datetime import time
 
-from nautilus_trader.common.clock import TestClock, LiveClock
+from nautilus_trader.common.component import TestClock
 from nautilus_trader.core.nautilus_pyo3 import OmsType
 from nautilus_trader.core.rust.model import PriceType, AggregationSource
 from nautilus_trader.indicators.average.moving_average import MovingAverageType
 from nautilus_trader.indicators.average.sma import SimpleMovingAverage
 from nautilus_trader.model.data import Bar, BarType, BarSpecification, BarAggregation
-from nautilus_trader.model.identifiers import TraderId, InstrumentId, ClientId
+from nautilus_trader.model.identifiers import TraderId, InstrumentId
 from nautilus_trader.model.objects import Price, Quantity
 from nautilus_trader.test_kit.stubs.component import TestComponentStubs
-from nautilus_trader.test_kit.stubs.identifiers import TestIdStubs
 
 from strategy.moving_avarages_neural_network.config import MovingAveragesNeuralNetworkConfig
 from strategy.moving_avarages_neural_network.strategy import MovingAveragesNeuralNetworkStrategy
@@ -198,7 +197,6 @@ class TestClass:
             TestComponentStubs.msgbus(),
             TestComponentStubs.cache(),
             self.clock,
-            TestComponentStubs.logger(),
         )
 
         return strategy
